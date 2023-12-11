@@ -141,6 +141,9 @@ main {
           box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.25);
   position: relative;
 }
+.randomchar__static button {
+  margin-top: 13px;
+}
 .randomchar__decoration {
   position: absolute;
   bottom: 14px;
