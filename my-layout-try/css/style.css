@@ -157,3 +157,17 @@ main {
 .randomchar__title:nth-child(2) {
   margin-top: 33px;
 }
+
+.char__content {
+  margin-top: 50px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 650px 25px 425px;
+  grid-template-columns: 650px 425px;
+  -webkit-column-gap: 25px;
+     -moz-column-gap: 25px;
+          column-gap: 25px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
