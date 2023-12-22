@@ -50,34 +50,11 @@ input::-webkit-inner-spin-button {
     margin: 0 auto;
     padding: 50px 0px;
     position: relative;
-    &__header {
-        display: flex;
-        justify-content: space-between;
-    }
-    &__title {
-        color: #000;
-        font-family: Roboto Condensed;
-        font-size: 28px;
-        font-weight: 700;
-        line-height: normal;
-        span {
-            color: $main-color;
-        }
-    }
-    &__menu {
-        ul {
-            display: flex;
-            justify-content: space-around;
-            font-size: 24px;
-            font-style: normal;
-            font-weight: 700;
-            li {
-                margin: 0 8px;
-                a:hover {
-                    color: $main-color;
-                }
-            }
-        }
+    .bg-decoration {
+        position: absolute;
+        right: -174px;
+        bottom: -70px;
+        z-index: -1;
     }
 }
 

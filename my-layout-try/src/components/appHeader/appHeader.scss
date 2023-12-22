@@ -1,0 +1,33 @@
+@import "../../style/_variables.scss";
+
+.app {
+    &__header {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title {
+        color: #000;
+        font-family: Roboto Condensed;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: normal;
+        span {
+            color: $main-color;
+        }
+    }
+    &__menu {
+        ul {
+            display: flex;
+            justify-content: space-around;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            li {
+                margin: 0 8px;
+                a:hover {
+                    color: $main-color;
+                }
+            }
+        }
+    }
+}
