@@ -130,50 +130,50 @@ main {
         align-items: start;
     }
 
-    &__grid {
-        display: grid;
-        grid-template-columns: repeat(3, 200px);
-        column-gap: 25px;
-        row-gap: 30px;
-    }
+    // &__grid {
+    //     display: grid;
+    //     grid-template-columns: repeat(3, 200px);
+    //     column-gap: 25px;
+    //     row-gap: 30px;
+    // }
 
-    &__item {
-        height: 318px;
-        width: 200px;
-        background-color: $dark;
-        padding: 15px;
-        cursor: pointer;
-        filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.25));
-        img {
-            width: 200px;
-            height: 200px;
-            object-fit: cover;
-            transform: translate(-15px, -15px);
-        }
+    // &__item {
+    //     height: 318px;
+    //     width: 200px;
+    //     background-color: $dark;
+    //     padding: 15px;
+    //     cursor: pointer;
+    //     filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.25));
+    //     img {
+    //         width: 200px;
+    //         height: 200px;
+    //         object-fit: cover;
+    //         transform: translate(-15px, -15px);
+    //     }
 
-        &_selected {
-            filter: drop-shadow(0px 5px 20px #9f0013);
-            transform: translateY(-8px);
-        }
-    }
+    //     &_selected {
+    //         filter: drop-shadow(0px 5px 20px #9f0013);
+    //         transform: translateY(-8px);
+    //     }
+    // }
 
-    &__name {
-        color: #fff;
-        font-size: 22px;
-        font-weight: 700;
-        text-transform: uppercase;
-    }
+    // &__name {
+    //     color: #fff;
+    //     font-size: 22px;
+    //     font-weight: 700;
+    //     text-transform: uppercase;
+    // }
 
-    &__info {
-        padding: 25px;
-        background: #fff;
-        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
-        &-name {
-            font-size: 22px;
-            font-weight: 700;
-            text-transform: uppercase;
-        }
-    }
+    // &__info {
+    //     padding: 25px;
+    //     background: #fff;
+    //     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+    //     &-name {
+    //         font-size: 22px;
+    //         font-weight: 700;
+    //         text-transform: uppercase;
+    //     }
+    // }
 
     &__basics {
         display: grid;
